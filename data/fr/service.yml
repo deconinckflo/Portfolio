@@ -3,14 +3,20 @@ service:
   enable : true
   title : Mes compétences
   service_item :
+
+    # service item loop
+    - name : "Data Science"
+      content : "Machine Learning, Deep Learning, Data Collection, Data Cleaning, Data Visualization"
+      image : "images/icons/data-science.png"
+
     # service item loop
     - name : "Python"
-      content : "Pandas, Numpy, Tensorflow, Scikit-learn, Matplotlib, Keras"
+      content : "Pandas, Numpy, Tensorflow, Scikit-learn, Matplotlib, Keras, Django"
       image : "images/icons/Python.png"
 
     # service item loop
     - name : "Web technologies"
-      content : " HTML/CSS, JavaScript, Java, PHP"
+      content : "SQL, JavaScript, HTML/CSS, Java"
       image : "images/icons/web.png"
 
     # service item loop
@@ -27,8 +33,3 @@ service:
     - name : "Anglais"
       content: "Niveau B2, Cambridge English B2 First"
       image : "images/icons/english.jpg"
-
-    # service item loop
-    - name : "Espagnol"
-      content : "Elémentaire"
-      image : "images/icons/spanish.png"

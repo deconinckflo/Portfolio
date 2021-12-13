@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://foukette.github.io/Portfolio/blog/</loc>
-    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
+    <lastmod>2021-07-30T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,23 +18,23 @@
   </url>
   
   <url>
-    <loc>https://foukette.github.io/Portfolio/blog/simple-blog-post-3/</loc>
-    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
+    <loc>https://foukette.github.io/Portfolio/blog/maven-olympics-challenge/</loc>
+    <lastmod>2021-07-30T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/Portfolio/fr/blog/simple-blog-post-3/"
+                href="https://foukette.github.io/Portfolio/fr/blog/maven-olympics-challenge/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/Portfolio/blog/simple-blog-post-3/"
+                href="https://foukette.github.io/Portfolio/blog/maven-olympics-challenge/"
                 />
   </url>
   
   <url>
     <loc>https://foukette.github.io/Portfolio/</loc>
-    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
+    <lastmod>2021-07-30T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -44,6 +44,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://foukette.github.io/Portfolio/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://foukette.github.io/Portfolio/blog/ia-covid/</loc>
+    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://foukette.github.io/Portfolio/fr/blog/ia-covid/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://foukette.github.io/Portfolio/blog/ia-covid/"
                 />
   </url>
   

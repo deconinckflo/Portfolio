@@ -2,12 +2,12 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/bigdata.webp"
-  bg_image : "images/backgrounds/bigdata.jpg"
+  bg_image_webp : "images/backgrounds/background.webp"
+  bg_image : "images/backgrounds/background.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Deconinck Florian"
-  content : "Je suis étudiant en première année de Master en spécialisation Big Data. Je suis à la recherche d'un stage de 3 ou 4 mois dans le Big Data à partir de début Mai jusqu'à fin Aout 2021."
+  title : "DECONINCK Florian"
+  content : "Je suis étudiant en Master 2 à l'ISEN Lille en spécialisation Big Data"
   button:
     enable : true
-    label : "Télecharger mon CV"
+    label : "TÉLÉCHARGER MON CV"
     link : "cv/CV - Deconinck Florian.pdf"

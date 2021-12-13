@@ -102,11 +102,20 @@ link = "https://github.com/foukette"
 
 [[params.social]]
 icon = "ti-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.linkedin.com/in/florian-deconinck-28500a1a2/"
+link = "https://www.linkedin.com/in/florian-deconinck/"
 
 [[params.social]]
 icon = "ti-email" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "mailto:florian.deconinck@isen.yncrea.fr"
+link = "mailto:florian.deconinck@student.junia.com"
+
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 1
+home = "Accueil"
+copyright = "Deconinck Florian 2021"
 
 
 ################################ English Language ########################
@@ -114,15 +123,6 @@ link = "mailto:florian.deconinck@isen.yncrea.fr"
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
-home = "Home"
-copyright = "Deconinck Florian 2020"
-
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
 weight = 2
-home = "Accueil"
-copyright = "Deconinck Florian 2020"
+home = "Home"
+copyright = "Deconinck Florian 2021"

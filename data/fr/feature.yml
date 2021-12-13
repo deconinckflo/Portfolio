@@ -9,14 +9,14 @@ feature:
       # feature item loop
     - title : Formation
       icon : ti-pencil # themify icon pack : https://themify.me/themify-icons
-      content : Diplomé d'un baccalauréat scientifique en Juin 2017 au lycée Institut de Genech avec mention bien et option européeenne. Aujourd'hui je suis en Master I à l'Isen à Lille.
+      content : Diplomé d'un baccalauréat scientifique en Juin 2017 au lycée Institut de Genech avec mention bien et option européeenne. Aujourd'hui je suis en Master 2 à l'ISEN à Lille en spécialisation Big Data.
 
       # feature item loop
     - title : Big Data
       icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-      content : Je suis entré en spécialisation Big Data à Isen Lille en 2020. Je suis passioné par la lecture des données et ce qu'ils peuvent nous apprendre. Je suis convaincu que les données sont la révolution actuelle et je veux en faire partie.
+      content : Je suis entré en spécialisation Big Data à Isen Lille en 2020. Je suis passioné par l'analyse des données et ce que nous peuvons en apprendre. Je suis convaincu que les données sont la révolution actuelle et je veux en faire partie.
 
       # feature item loop
-    - title : Sport
+    - title : Passions
       icon : ti-basketball # themify icon pack : https://themify.me/themify-icons
-      content : Je suis passionné par le sport. J'ai fais 7 ans de tennis et j'ai pratiqué le badminton, le football, l'athlétisme ou encore le volleyball. Je passe aussi beaucoup de mon temps libre à regarder du sport à la télévision.
+      content : Je suis passionné par le sport, pratiquant actuellement le badminton, j'ai également fais 7 ans de tennis, 5 ans de football mais aussi de l'athlétisme ou encore du volleyball. Je passe aussi beaucoup de mon temps libre à regarder du sport ou lire des articles.
