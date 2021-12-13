@@ -7,5 +7,6 @@ author: Deconinck Florian
 description : "Mettez vos compétences de conception à l'œuvre et partagez un visuel d'une seule page retraçant l'histoire des Jeux Olympiques"
 ---
 
+![Drag Racing](https://foukette.github.io/images/blog/OlympicRings.png#thumbnail)
 
 [Maven challenge](https://www.mavenanalytics.io/blog/maven-olympics-challenge)

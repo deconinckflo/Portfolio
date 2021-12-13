@@ -7,6 +7,6 @@ author: Deconinck Florian
 description : "Put your design skills to work and share a single page visual or infographic capturing the history of the Olympic games"
 ---
 
-![Drag Racing](http://localhost:1313/Portfolio/images/blog/mavenolympics.png#thumbnail)
+![Drag Racing](https://foukette.github.io/images/blog/OlympicRings.png#thumbnail)
 
 [Maven challenge](https://www.mavenanalytics.io/blog/maven-olympics-challenge)

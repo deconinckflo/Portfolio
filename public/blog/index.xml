@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Portfolio</title>
-    <link>https://foukette.github.io/Portfolio/blog/</link>
+    <link>https://foukette.github.io/blog/</link>
     <description>Recent content in Blogs on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Deconinck Florian 2021</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 12:52:36 +0600</lastBuildDate><atom:link href="https://foukette.github.io/Portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jul 2021 12:52:36 +0600</lastBuildDate><atom:link href="https://foukette.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maven Olympics Challenge</title>
-      <link>https://foukette.github.io/Portfolio/blog/maven-olympics-challenge/</link>
+      <link>https://foukette.github.io/blog/maven-olympics-challenge/</link>
       <pubDate>Fri, 30 Jul 2021 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/Portfolio/blog/maven-olympics-challenge/</guid>
+      <guid>https://foukette.github.io/blog/maven-olympics-challenge/</guid>
       <description>Maven challenge</description>
     </item>
     
     <item>
       <title>Masked recognition AI</title>
-      <link>https://foukette.github.io/Portfolio/blog/ia-covid/</link>
+      <link>https://foukette.github.io/blog/ia-covid/</link>
       <pubDate>Sat, 17 Oct 2020 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/Portfolio/blog/ia-covid/</guid>
+      <guid>https://foukette.github.io/blog/ia-covid/</guid>
       <description>Introduction The health crisis of COVID-19 (known as Coronavirus) striking the whole world, forced everybody to wear a mask.</description>
     </item>
     
     <item>
       <title>Tennis Prediction</title>
-      <link>https://foukette.github.io/Portfolio/blog/simple-blog-post-1/</link>
+      <link>https://foukette.github.io/blog/simple-blog-post-1/</link>
       <pubDate>Mon, 15 Jun 2020 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/Portfolio/blog/simple-blog-post-1/</guid>
+      <guid>https://foukette.github.io/blog/simple-blog-post-1/</guid>
       <description>Passionate about sports and having played tennis, what could be more interesting than studying Big Data this theme.</description>
     </item>
     
