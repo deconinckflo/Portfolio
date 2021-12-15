@@ -1,64 +1,18 @@
-##################################### pricing ##############################
-pricing:
-  enable : false
-  title : Our Plans
-  pricing_table :
-    # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Data Engineer / Développeur
+      company: SITEPROJET, Lille
+      duration: Mai 2021 - Juillet 2021
+      content: Collecte de données et conception de bases de données. Réaliser une application mobile en React Native, et un site en React Native.
 
-    # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+    - name: Ambassadeur ISEN
+      company: ISEN, Lille
+      duration: Septembre 2019 - Juin 2020
+      content: Participation aux salons étudiants, forums lycées et portes ouvertes pour aider les étudiants dans leur orientation
 
-    # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
-
-    # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+    - name: Employé polyvalent
+      company: Popeye Village, Malte
+      duration: Juillet 2019 - Août 2019
+      content: Accueillir les visiteurs et leur donner les instructions. Mettre en place et veiller à la propreté du village. Développer mon sens de l'organisation, du relationnel et mon anglais.

@@ -4,7 +4,7 @@ image: images/author/DSC_0189.webp
 email: "florian.deconinck@student.junia.com"
 social:
   - icon : "ti-github"
-    link : "https://github.com/foukette"
+    link : "https://github.com/deconinckflo"
   - icon : "ti-linkedin"
     link : "https://www.linkedin.com/in/florian-deconinck/"
   - icon : "ti-email"

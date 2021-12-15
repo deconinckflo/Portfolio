@@ -2,36 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Portfolio</title>
-    <link>https://foukette.github.io/fr/blog/</link>
+    <link>https://deconinckflo.github.io/fr/blog/</link>
     <description>Recent content in Blogs on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Deconinck Florian 2021</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 12:52:36 +0600</lastBuildDate><atom:link href="https://foukette.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 18:11:36 +0600</lastBuildDate><atom:link href="https://deconinckflo.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cartographie de données NBA</title>
+      <link>https://deconinckflo.github.io/fr/blog/qgis-basketball/</link>
+      <pubDate>Fri, 12 Nov 2021 18:11:36 +0600</pubDate>
+      
+      <guid>https://deconinckflo.github.io/fr/blog/qgis-basketball/</guid>
+      <description>Introduction Lors de notre 5ème année d’étude à JUNIA ISEN Lille, j&amp;rsquo;ai eu la possibilité de choisir un module d’ouverture : système d’information géographique.</description>
+    </item>
+    
+    <item>
+      <title>Hamilton 100 victoires</title>
+      <link>https://deconinckflo.github.io/fr/blog/hamilton/</link>
+      <pubDate>Fri, 01 Oct 2021 12:52:36 +0600</pubDate>
+      
+      <guid>https://deconinckflo.github.io/fr/blog/hamilton/</guid>
+      <description>Introduction Vainqueur dimanche 26 Septembre du Grand Prix de Russie à Sotchi, Lewis Hamilton est devenu le premier pilote à franchir la barre des 100 victoires en Grand Prix, loin devant les autres grands noms de son sport.</description>
+    </item>
+    
     <item>
       <title>Maven Olympics Challenge</title>
-      <link>https://foukette.github.io/fr/blog/maven-olympics-challenge/</link>
-      <pubDate>Fri, 30 Jul 2021 12:52:36 +0600</pubDate>
+      <link>https://deconinckflo.github.io/fr/blog/maven-olympics-challenge/</link>
+      <pubDate>Fri, 30 Jul 2021 10:31:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/fr/blog/maven-olympics-challenge/</guid>
-      <description>Maven challenge</description>
+      <guid>https://deconinckflo.github.io/fr/blog/maven-olympics-challenge/</guid>
+      <description>Introduction Maven Analytics est un site d&amp;rsquo;apprentissage en ligne permettant de développer les compétences les plus recherchées en matière d&amp;rsquo;analyse de données.</description>
+    </item>
+    
+    <item>
+      <title>Cancer des ovaires</title>
+      <link>https://deconinckflo.github.io/fr/blog/ovarian-cancer/</link>
+      <pubDate>Tue, 13 Apr 2021 12:52:36 +0600</pubDate>
+      
+      <guid>https://deconinckflo.github.io/fr/blog/ovarian-cancer/</guid>
+      <description>Introduction Le cancer de l&amp;rsquo;ovaire est l&amp;rsquo;un des types de cancer les plus courants chez la femme.</description>
     </item>
     
     <item>
       <title>IA reconnaissance port du masque</title>
-      <link>https://foukette.github.io/fr/blog/ia-covid/</link>
-      <pubDate>Sat, 17 Oct 2020 12:52:36 +0600</pubDate>
+      <link>https://deconinckflo.github.io/fr/blog/ia-covid/</link>
+      <pubDate>Sat, 17 Oct 2020 14:56:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/fr/blog/ia-covid/</guid>
+      <guid>https://deconinckflo.github.io/fr/blog/ia-covid/</guid>
       <description>Introduction La crise du COVID-19, a forcé les populations du monde entier à porter des masques pour leur sécurité.</description>
     </item>
     
     <item>
       <title>Prédiction tennis</title>
-      <link>https://foukette.github.io/fr/blog/simple-blog-post-1/</link>
+      <link>https://deconinckflo.github.io/fr/blog/simple-blog-post-1/</link>
       <pubDate>Mon, 15 Jun 2020 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/fr/blog/simple-blog-post-1/</guid>
+      <guid>https://deconinckflo.github.io/fr/blog/simple-blog-post-1/</guid>
       <description>Passionné de sport et ayant pratiqué le tennis durant 7 années, quoi de plus intéressant que de commencer à étudier le Big Data avec un projet autour de ce thème.</description>
     </item>
     

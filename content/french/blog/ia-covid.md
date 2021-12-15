@@ -1,6 +1,6 @@
 ---
 title: "IA reconnaissance port du masque"
-date: 2020-10-17T12:52:36+06:00
+date: 2020-10-17T14:56:36+06:00
 image_webp: images/blog/mask.webp
 image: images/blog/mask.jpg
 author: Deconinck Florian

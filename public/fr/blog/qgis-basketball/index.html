@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+	<meta charset="utf-8">
+	<title>Cartographie de données NBA</title>
+
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Représentation de données issus de NBA à l&#39;aide du logiciel QGIS">
+	
+	<meta name="author" content="Themefisher">
+	<meta name="generator" content="Hugo 0.76.4" />
+
+	<!-- plugins -->
+	
+	<link rel="stylesheet" href="https://deconinckflo.github.io/plugins/bootstrap/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="https://deconinckflo.github.io/plugins/themify-icons/themify-icons.css">
+	
+	<link rel="stylesheet" href="https://deconinckflo.github.io/plugins/magnific-popup/magnific-popup.css">
+	
+	<link rel="stylesheet" href="https://deconinckflo.github.io/plugins/slick/slick.css">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim%7cQuattrocento&#43;Sans:400,700&amp;display=swap">
+	
+
+	<!-- Main Stylesheet -->
+	
+	<link rel="stylesheet" href="https://deconinckflo.github.io/css/style.min.css" media="screen">
+
+	<!-- Custom stylesheet - for your changes -->
+	
+  <link rel="stylesheet" href="https://deconinckflo.github.io/css/custom.min.css" media="screen">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://deconinckflo.github.io/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="https://deconinckflo.github.io/images/favicon.png" type="image/x-icon">
+
+	
+
+</head>
+
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+  <div id="content">
+    
+
+
+<section class="sticky-top navigation">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand p-0" href="/fr">
+				
+				Portfolio
+				
+			</a>
+
+			<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navigation">
+				<ul class="navbar-nav ml-auto">
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" 
+              href="/fr#about">Informations Personnelles</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" 
+              href="/fr#skills">Compétences</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" 
+              href="/fr#experiences">Expériences</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" 
+              href="/fr#projects">Projets</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" 
+              href="/fr#contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+				
+				<select id="select-language" onchange="location = this.value;">
+					
+					
+					
+					
+					
+					
+					
+					
+					<option id="fr" value="https://deconinckflo.github.io/fr/blog/qgis-basketball/" selected>Fr
+					</option>
+					
+					
+					
+					
+					
+					
+				</select>
+				
+			</div>
+		</nav>
+	</div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>Cartographie de données NBA</h1>
+        <ul class="list-inline mb-50">
+          <li class="list-inline-item"><a href="/fr/author/deconinck-florian/">Deconinck Florian</a></li>
+          <li class="list-inline-item">Friday, Nov 12, 2021</li>
+        </ul>
+        <img class="img-fluid mb-50 lozad" data-src="https://deconinckflo.github.io/images/blog/qgis.png" alt="blog-image">
+      </div>
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content">
+          <h2 id="introduction">Introduction</h2>
+<p>Lors de notre 5ème année d’étude à JUNIA ISEN Lille, j&rsquo;ai eu la possibilité de choisir un module d’ouverture : système d’information géographique. Dans ce module, j&rsquo;ai appris l&rsquo;importance de la bonne communication d’informations. Le partage de données grâce aux cartes et autres représentations est un moyen efficace et accessible à tous de transmission.</p>
+<p>Pour finaliser ce module, nous avons du réaliser, par groupe de 2, une carte avec les données de notre choix. Ayant un ami adepte du basketball tout comme moi, nous avons choisi de prendre des données de la nba afin de représenter l’évolution de la position des tirs des joueurs et les origines des joueurs américains.</p>
+<h2 id="les-données">Les données</h2>
+<p>Tout d’abord pour la carte montrant les zones de tir en NBA, nous n’avons trouvé aucun fichier tout fait sur Internet. Nous avons donc réalisé notre propre programme Python afin de récupérer les données puis de les stocker dans un fichier csv. Pour récupérer les données, nous avons fait appel à l’API public du site officiel de la <a href="www.nba.com">NBA</a> : nba_api. Nous avons récupéré les données de toutes les années depuis 2004 et pour chacune des 30 équipes de la ligue. Pour finir nous avons, grâce à un autre script python, traité les données afin de conserver seulement celles utiles</p>
+<p>Pour la seconde représentation nous avons réussi à trouver un fichier contenant toutes les données dont nous avions besoin.</p>
+<h2 id="réalisation-dans-qgis">Réalisation dans QGIS</h2>
+<p>Voici la répartition des tirs en NBA durant la saison 2004-2005 ainsi que la saison 2019-2020</p>
+<p><img src="https://deconinckflo.github.io/images/blog/tirs2004.png#thumbnail" alt="tirs2004-2005">
+<img src="https://deconinckflo.github.io/images/blog/tirs2020.png#thumbnail" alt="tirs2019-2020"></p>
+<p>Une fois chaque image de chaque saison exportée du logiciel QGIS, nous les avons toutes assemblées pour en faire une image animée de type GIF.
+Nous pouvons donc observer au fur et à mesure une réelle évolution des positions de tir en NBA avec une augmentation du nombre de tir à 3 points.</p>
+<p>Voici la carte montrant l&rsquo;origine des des joueurs américains évoluant en NBA et en ABA précédemment.
+<img src="https://deconinckflo.github.io/images/blog/naissance-nba.png#thumbnail" alt="naissance joueur NBA Américain"></p>
+
+        </div>
+        
+        
+        
+        
+        <div class="mt-5">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </div><!-- end Contact Area -->
+<footer id="footer" class="section-bg">
+	<div class="container">
+		<div class="row wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-xl-12">
+
+				<!-- Footer Social Links -->
+				<div class="social-icon">
+					<ul class="list-inline">
+						
+						<li class="list-inline-item"><a target="blank" href="https://github.com/foukette"><i class="ti-github"></i></a></li>
+						
+						<li class="list-inline-item"><a target="blank" href="https://www.linkedin.com/in/florian-deconinck/"><i class="ti-linkedin"></i></a></li>
+						
+						<li class="list-inline-item"><a target="blank" href="mailto:florian.deconinck@student.junia.com"><i class="ti-email"></i></a></li>
+						
+					</ul>
+				</div>
+
+				<!-- copyright -->
+				<div class="copyright text-center">
+					<p>Deconinck Florian 2021</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- /footer -->
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="https://deconinckflo.github.io/plugins/jquery/jquery.min.js"></script>
+
+<script src="https://deconinckflo.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://deconinckflo.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://deconinckflo.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://deconinckflo.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://deconinckflo.github.io/plugins/lazy-load/lozad.min.js"></script>
+
+<script src="https://deconinckflo.github.io/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://deconinckflo.github.io/js/script.min.f4bb7735e5be19769aa51c5ec9254435a24f857fd2479585dfbba7eec477f05e60916c56630936db332a8360608119e4.js" integrity="sha384-9Lt3NeW&#43;GXaapRxeySVENaJPhX/SR5WF37un7sR38F5gkWxWYwk22zMqg2BggRnk"></script>
+
+
+
+</body>
+
+</html>

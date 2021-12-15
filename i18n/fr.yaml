@@ -1,5 +1,5 @@
 - id: blogTitle
-  translation: Dernier message
+  translation: Mes projets
 - id: readMore
   translation: Lire la suite
 - id: viewAllPost
@@ -31,7 +31,7 @@
 - id: my
   translation: Mes
 - id: project
-  translation: Projets
+  translation: Derniers Projets
 - id: About me
   translation: Informations Personnelles
 - id: Skills
@@ -40,3 +40,5 @@
   translation: Projets
 - id: Contact
   translation: Contact
+- id: experiences
+  translation: Expériences

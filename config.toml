@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://foukette.github.io/"
+baseURL = "https://deconinckflo.github.io/"
 title = "Portfolio"
 theme = "meghna"
 # post pagination
@@ -40,30 +40,58 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 
-############################# Navigation ##################################
-[[menu.main]]
+################### English Navigation ########################
+[[Languages.en.menu.main]]
 name = "About me"
-pre = "#"
-url = "feature"
+url = "#about"
 weight = 1
 
-[[menu.main]]
+[[Languages.en.menu.main]]
 name = "Skills"
-pre = "#"
-url = "services"
+url = "#skills"
 weight = 2
 
-[[menu.main]]
-name = "Projects"
-pre = "#"
-url = "blog"
-weight = 6
+[[Languages.en.menu.main]]
+name = "Experiences"
+url = "#experiences"
+weight = 3
 
-[[menu.main]]
+[[Languages.en.menu.main]]
+name = "Projects"
+url = "#projects"
+weight = 4
+
+[[Languages.en.menu.main]]
 name = "Contact"
-pre = "#"
-url = "contact"
-weight = 7
+url = "#contact"
+weight = 5
+
+
+################### French Navigation ########################
+[[Languages.fr.menu.main]]
+name = "Informations Personnelles"
+url = "#about"
+weight = 1
+
+[[Languages.fr.menu.main]]
+name = "Compétences"
+url = "#skills"
+weight = 2
+
+[[Languages.fr.menu.main]]
+name = "Expériences"
+url = "#experiences"
+weight = 3
+
+[[Languages.fr.menu.main]]
+name = "Projets"
+url = "#projects"
+weight = 4
+
+[[Languages.fr.menu.main]]
+name = "Contact"
+url = "#contact"
+weight = 5
 
 ############################# Default Parameters ##########################
 [params]

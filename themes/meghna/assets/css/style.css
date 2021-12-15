@@ -632,7 +632,7 @@ a:hover {
 }
 
 .about-2 .content-block .media h4 {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -1235,7 +1235,8 @@ a:hover {
 
 .post-block .content h3 {
   margin: 0 0 6px;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 1.5;
   text-transform: capitalize;
 }

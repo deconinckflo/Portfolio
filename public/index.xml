@@ -2,45 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio</title>
-    <link>https://foukette.github.io/</link>
+    <link>https://deconinckflo.github.io/</link>
     <description>Recent content on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Deconinck Florian 2021</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 12:52:36 +0600</lastBuildDate><atom:link href="https://foukette.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jul 2021 12:52:36 +0600</lastBuildDate><atom:link href="https://deconinckflo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Maven Olympics Challenge</title>
-      <link>https://foukette.github.io/blog/maven-olympics-challenge/</link>
+      <title>Hamilton 100 wins</title>
+      <link>https://deconinckflo.github.io/blog/hamilton/</link>
       <pubDate>Fri, 30 Jul 2021 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/blog/maven-olympics-challenge/</guid>
-      <description>Maven challenge</description>
+      <guid>https://deconinckflo.github.io/blog/hamilton/</guid>
+      <description>Introduction Winner Sunday September 26 of the Grand Prix of Russia in Sochi, Lewis Hamilton became the first driver to cross the bar of 100 Grand Prix wins, far ahead of the other big names in his sport.</description>
+    </item>
+    
+    <item>
+      <title>Maven Olympics Challenge</title>
+      <link>https://deconinckflo.github.io/blog/maven-olympics-challenge/</link>
+      <pubDate>Fri, 30 Jul 2021 12:52:36 +0600</pubDate>
+      
+      <guid>https://deconinckflo.github.io/blog/maven-olympics-challenge/</guid>
+      <description>Introduction Maven Analytics is an online learning site for developing the most sought-after skills in data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Ovarian cancer</title>
+      <link>https://deconinckflo.github.io/blog/ovarian-cancer/</link>
+      <pubDate>Tue, 13 Apr 2021 12:52:36 +0600</pubDate>
+      
+      <guid>https://deconinckflo.github.io/blog/ovarian-cancer/</guid>
+      <description>Introduction Ovarian cancer, is one of the most common types of cancer in women. The symptoms are not always easy to recognise because they&amp;rsquo;re similar to those of some more common conditions.</description>
     </item>
     
     <item>
       <title>Masked recognition AI</title>
-      <link>https://foukette.github.io/blog/ia-covid/</link>
+      <link>https://deconinckflo.github.io/blog/ia-covid/</link>
       <pubDate>Sat, 17 Oct 2020 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/blog/ia-covid/</guid>
+      <guid>https://deconinckflo.github.io/blog/ia-covid/</guid>
       <description>Introduction The health crisis of COVID-19 (known as Coronavirus) striking the whole world, forced everybody to wear a mask.</description>
     </item>
     
     <item>
       <title>Tennis Prediction</title>
-      <link>https://foukette.github.io/blog/simple-blog-post-1/</link>
+      <link>https://deconinckflo.github.io/blog/simple-blog-post-1/</link>
       <pubDate>Mon, 15 Jun 2020 12:52:36 +0600</pubDate>
       
-      <guid>https://foukette.github.io/blog/simple-blog-post-1/</guid>
+      <guid>https://deconinckflo.github.io/blog/simple-blog-post-1/</guid>
       <description>Passionate about sports and having played tennis, what could be more interesting than studying Big Data this theme.</description>
     </item>
     
     <item>
       <title>Florian Deconinck</title>
-      <link>https://foukette.github.io/author/deconinck-florian/</link>
+      <link>https://deconinckflo.github.io/author/deconinck-florian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://foukette.github.io/author/deconinck-florian/</guid>
+      <guid>https://deconinckflo.github.io/author/deconinck-florian/</guid>
       <description></description>
     </item>
     

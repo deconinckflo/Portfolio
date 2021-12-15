@@ -3,133 +3,168 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://foukette.github.io/fr/blog/</loc>
-    <lastmod>2021-07-30T12:52:36+06:00</lastmod>
+    <loc>https://deconinckflo.github.io/fr/blog/</loc>
+    <lastmod>2021-11-12T18:11:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/blog/"
+                href="https://deconinckflo.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/blog/"
+                href="https://deconinckflo.github.io/fr/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/blog/maven-olympics-challenge/</loc>
-    <lastmod>2021-07-30T12:52:36+06:00</lastmod>
+    <loc>https://deconinckflo.github.io/fr/blog/qgis-basketball/</loc>
+    <lastmod>2021-11-12T18:11:36+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://deconinckflo.github.io/fr/</loc>
+    <lastmod>2021-11-12T18:11:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/blog/maven-olympics-challenge/"
+                href="https://deconinckflo.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/blog/maven-olympics-challenge/"
+                href="https://deconinckflo.github.io/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/</loc>
-    <lastmod>2021-07-30T12:52:36+06:00</lastmod>
+    <loc>https://deconinckflo.github.io/fr/blog/hamilton/</loc>
+    <lastmod>2021-10-01T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/"
+                href="https://deconinckflo.github.io/blog/hamilton/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/"
+                href="https://deconinckflo.github.io/fr/blog/hamilton/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/blog/ia-covid/</loc>
-    <lastmod>2020-10-17T12:52:36+06:00</lastmod>
+    <loc>https://deconinckflo.github.io/fr/blog/maven-olympics-challenge/</loc>
+    <lastmod>2021-07-30T10:31:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/blog/ia-covid/"
+                href="https://deconinckflo.github.io/blog/maven-olympics-challenge/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/blog/ia-covid/"
+                href="https://deconinckflo.github.io/fr/blog/maven-olympics-challenge/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/blog/simple-blog-post-1/</loc>
+    <loc>https://deconinckflo.github.io/fr/blog/ovarian-cancer/</loc>
+    <lastmod>2021-04-13T12:52:36+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deconinckflo.github.io/blog/ovarian-cancer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://deconinckflo.github.io/fr/blog/ovarian-cancer/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://deconinckflo.github.io/fr/blog/ia-covid/</loc>
+    <lastmod>2020-10-17T14:56:36+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deconinckflo.github.io/blog/ia-covid/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://deconinckflo.github.io/fr/blog/ia-covid/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://deconinckflo.github.io/fr/blog/simple-blog-post-1/</loc>
     <lastmod>2020-06-15T12:52:36+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/blog/simple-blog-post-1/"
+                href="https://deconinckflo.github.io/blog/simple-blog-post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/blog/simple-blog-post-1/"
+                href="https://deconinckflo.github.io/fr/blog/simple-blog-post-1/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/author/</loc>
+    <loc>https://deconinckflo.github.io/fr/author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/author/"
+                href="https://deconinckflo.github.io/author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/author/"
+                href="https://deconinckflo.github.io/fr/author/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/categories/</loc>
+    <loc>https://deconinckflo.github.io/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/categories/"
+                href="https://deconinckflo.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/categories/"
+                href="https://deconinckflo.github.io/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/author/deconinck-florian/</loc>
+    <loc>https://deconinckflo.github.io/fr/author/deconinck-florian/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/author/deconinck-florian/"
+                href="https://deconinckflo.github.io/author/deconinck-florian/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/author/deconinck-florian/"
+                href="https://deconinckflo.github.io/fr/author/deconinck-florian/"
                 />
   </url>
   
   <url>
-    <loc>https://foukette.github.io/fr/tags/</loc>
+    <loc>https://deconinckflo.github.io/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://foukette.github.io/tags/"
+                href="https://deconinckflo.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://foukette.github.io/fr/tags/"
+                href="https://deconinckflo.github.io/fr/tags/"
                 />
   </url>
   

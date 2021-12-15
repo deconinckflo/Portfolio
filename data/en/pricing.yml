@@ -1,64 +1,18 @@
-##################################### pricing ##############################
-pricing:
-  enable : false
-  title : Our Plans
-  pricing_table :
-    # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Data Engineer / Developer
+      company: SITEPROJET, Lille
+      duration: May 2021 - July 2021
+      content: Data collection and database design. Realized a mobile application in React Native, and a website in React Native.
 
-    # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+    - name: Ambassador ISEN
+      company: ISEN, Lille
+      duration: September 2019 - June 2020
+      content: Participation in student fairs, high school forums and open houses to help students in their orientation.
 
-    # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
-
-    # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+    - name: Multi-task Worker
+      company: Popeye Village, Malte
+      duration: July 2019 - August 2019
+      content: Welcome visitors and give instructions for the boat trip, set up the beach area, ensure the cleanliness of the village. Develop my sense of organization, interpersonal skills and my English level.
