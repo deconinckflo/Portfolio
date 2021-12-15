@@ -7,16 +7,16 @@ feature:
   content : ""
   feature_item :
       # feature item loop
-    - title : Formation
+    - title : Education
       icon : ti-pencil # themify icon pack : https://themify.me/themify-icons
-      content : Graduated in June 2017 of a scientific french high School diploma with honours and English option. Currently in Master 2 in Isen Lille, specializing in Big Data.
+      content : Graduated in June 2017 of a scientific french high School diploma with honours and English option. Currently in Master 2 in ISEN Lille, specializing in Big Data.
 
       # feature item loop
     - title : Big Data
       icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-      content : I am currently in Master I specializing in Big Data. I’m really fascinated by what we can learn from Data, and I’m convinced that Data is the current revolution and I want to be part of it.
+      content : I am currently in Master specializing in Big Data. I’m really fascinated by what we can learn from Data, and I’m convinced that Data is the current revolution and I want to be part of it.
 
       # feature item loop
     - title : Passions
       icon : ti-basketball # themify icon pack : https://themify.me/themify-icons
-      content : I am passionate by sport,currently playing badminton, I also did 7 years of tennis, 5 years of football but also volleyball or even athletics. I also spend a lot of my free time watching sports or reading articles.
+      content : I am passionate by sport, currently playing badminton, I also did 7 years of tennis, 5 years of football but also volleyball or even athletics. I also spend a lot of my free time watching sports or reading articles.

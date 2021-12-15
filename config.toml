@@ -126,7 +126,7 @@ map_marker = "images/marker.png"
 
 [[params.social]]
 icon = "ti-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://github.com/foukette"
+link = "https://github.com/deconinckflo"
 
 [[params.social]]
 icon = "ti-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/

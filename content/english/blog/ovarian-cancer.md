@@ -8,7 +8,7 @@ description : "Create an AI in order to predict if a patient is cancerous or not
 ---
 
 ## Introduction
-Ovarian cancer, is one of the most common types of cancer in women. The symptoms are not always easy to recognise because they're similar to those of some more common conditions.
+Ovarian cancer is one of the most common types of cancer in women. The symptoms are not always easy to recognise because they're similar to those of some more common conditions.
 
 In this Master I project, we are a team of 6 students, and we are challenged to create an AI in order to predict if a patient is cancerous or not.
 

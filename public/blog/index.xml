@@ -7,14 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Deconinck Florian 2021</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 12:52:36 +0600</lastBuildDate><atom:link href="https://deconinckflo.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 18:11:36 +0600</lastBuildDate><atom:link href="https://deconinckflo.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NBA Data Mapping</title>
+      <link>https://deconinckflo.github.io/blog/qgis-basketball/</link>
+      <pubDate>Fri, 12 Nov 2021 18:11:36 +0600</pubDate>
+      
+      <guid>https://deconinckflo.github.io/blog/qgis-basketball/</guid>
+      <description>Introduction During our 5th year of study at JUNIA ISEN Lille, I had the opportunity to choose an openness module: geographic information system.</description>
+    </item>
+    
     <item>
       <title>Hamilton 100 wins</title>
       <link>https://deconinckflo.github.io/blog/hamilton/</link>
       <pubDate>Fri, 30 Jul 2021 12:52:36 +0600</pubDate>
       
       <guid>https://deconinckflo.github.io/blog/hamilton/</guid>
-      <description>Introduction Winner Sunday September 26 of the Grand Prix of Russia in Sochi, Lewis Hamilton became the first driver to cross the bar of 100 Grand Prix wins, far ahead of the other big names in his sport.</description>
+      <description>Introduction Winner Sunday, September 26 of the Grand Prix of Russia in Sochi, Lewis Hamilton became the first driver to cross the bar of 100 Grand Prix wins, far ahead of the other big names in his sport.</description>
     </item>
     
     <item>
@@ -32,7 +41,7 @@
       <pubDate>Tue, 13 Apr 2021 12:52:36 +0600</pubDate>
       
       <guid>https://deconinckflo.github.io/blog/ovarian-cancer/</guid>
-      <description>Introduction Ovarian cancer, is one of the most common types of cancer in women. The symptoms are not always easy to recognise because they&amp;rsquo;re similar to those of some more common conditions.</description>
+      <description>Introduction Ovarian cancer is one of the most common types of cancer in women. The symptoms are not always easy to recognise because they&amp;rsquo;re similar to those of some more common conditions.</description>
     </item>
     
     <item>
@@ -46,10 +55,10 @@
     
     <item>
       <title>Tennis Prediction</title>
-      <link>https://deconinckflo.github.io/blog/simple-blog-post-1/</link>
+      <link>https://deconinckflo.github.io/blog/tennis-predict/</link>
       <pubDate>Mon, 15 Jun 2020 12:52:36 +0600</pubDate>
       
-      <guid>https://deconinckflo.github.io/blog/simple-blog-post-1/</guid>
+      <guid>https://deconinckflo.github.io/blog/tennis-predict/</guid>
       <description>Passionate about sports and having played tennis, what could be more interesting than studying Big Data this theme.</description>
     </item>
     

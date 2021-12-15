@@ -8,10 +8,10 @@ description : "Projet personnel visant à réaliser un tableau de bord retraçan
 ---
 
 ## Introduction
-Vainqueur dimanche 26 Septembre du Grand Prix de Russie à Sotchi, Lewis Hamilton est devenu le premier pilote à franchir la barre des 100 victoires en Grand Prix, loin devant les autres grands noms de son sport.
+Vainqueur dimanche 26 septembre du Grand Prix de Russie à Sotchi, Lewis Hamilton est devenu le premier pilote à franchir la barre des 100 victoires en Grand Prix, loin devant les autres grands noms de son sport.
 
 ## Objectif
-Mon objectif sur ce projet est de découvrir un nouvel outil de visualisation de données : Tableau Public. Pour cela, quoi de mieux que de suivre l'actualité et d'analyser les 100 victoires en Grand Prix obtenues récemment pas Lewis Hamilton.
+Mon objectif de ce projet est de découvrir un nouvel outil de visualisation de données : Tableau Public. Pour cela, quoi de mieux que de suivre l'actualité et d'analyser les 100 victoires en Grand Prix obtenues récemment pas Lewis Hamilton.
 
 ## Réalisation
 ![100 victoires Lewis Hamilton](https://deconinckflo.github.io/images/blog/Hamilton.png#thumbnail)

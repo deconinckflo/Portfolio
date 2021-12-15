@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr-fr">
+<html lang="en-us">
 <head>
 	<meta charset="utf-8">
-	<title>Tags</title>
+	<title>NBA Data Mapping</title>
 
 	<!-- mobile responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="Responsive Multipurpose Parallax Hugo Template">
+	<meta name="description" content="Representation of NBA data using QGIS software">
 	
 	<meta name="author" content="Themefisher">
 	<meta name="generator" content="Hugo 0.76.4" />
@@ -49,7 +49,7 @@
 <section class="sticky-top navigation">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand p-0" href="/fr">
+			<a class="navbar-brand p-0" href="/">
 				
 				Portfolio
 				
@@ -70,7 +70,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#about">Informations Personnelles</a>
+              href="/#about">About me</a>
           </li>
           
           
@@ -80,7 +80,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#skills">Compétences</a>
+              href="/#skills">Skills</a>
           </li>
           
           
@@ -90,7 +90,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#experiences">Expériences</a>
+              href="/#experiences">Experiences</a>
           </li>
           
           
@@ -100,7 +100,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#projects">Projets</a>
+              href="/#projects">Projects</a>
           </li>
           
           
@@ -110,7 +110,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#contact">Contact</a>
+              href="/#contact">Contact</a>
           </li>
           
           
@@ -125,22 +125,22 @@
 					
 					
 					
-					<option id="fr" value="https://deconinckflo.github.io/fr/tags/" selected>Fr
+					<option id="fr" value="https://deconinckflo.github.io/fr/blog/qgis-basketball/">Fr</option>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<option id="en" value="https://deconinckflo.github.io/blog/qgis-basketball/" selected>En
 					</option>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					<option id="en" value="https://deconinckflo.github.io/tags/">En</option>
 					
 					
 					
@@ -153,30 +153,46 @@
 </section>
 
 
-<!-- Start Blog Section -->
-<section id="blog" class="section">
+<section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <!-- section title -->
-        <div class="title text-center wow fadeInDown">
-          <h2> Mes <span class="color">
-               projets </span></h2>
-          <div class="border-meghna"></div>
-        </div>
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>NBA Data Mapping</h1>
+        <ul class="list-inline mb-50">
+          <li class="list-inline-item"><a href="/author/deconinck-florian/">Deconinck Florian</a></li>
+          <li class="list-inline-item">Friday, Nov 12, 2021</li>
+        </ul>
+        <img class="img-fluid mb-50 lozad" data-src="https://deconinckflo.github.io/images/blog/qgis.png" alt="blog-image">
       </div>
-      <!-- /section title -->
-      
-      
-      <div class="col-12">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content">
+          <h2 id="introduction">Introduction</h2>
+<p>During our 5th year of study at JUNIA ISEN Lille, I had the opportunity to choose an openness module: geographic information system. In this module, I learned the importance of good communication of information. Sharing data using maps and other representations is an efficient and accessible means of transmission.</p>
+<p>To finalize this module, we had to produce, in groups of 2, a map with the data of our choice. Having a friend who loves basketball just like me, we chose to take data from the NBA to represent the evolution of player shooting positions and the origins of American players.</p>
+<h2 id="data">Data</h2>
+<p>First for the map showing the shooting zones in the NBA, we could not find any data files on the Internet. So we made our own Python program to collect the data and then store it in a csv file. To retrieve the data, we used the public API on the <a href="www.nba.com">NBA</a> official website: nba_api. We have collected data for all years since 2004 and for each of the 30 teams in the league. Finally, we have, thanks to another python script, processed the data in order to keep only the useful ones.</p>
+<p>For the second performance, we managed to find a file containing all the data we needed.</p>
+<h2 id="realization-in-qgis">Realization in QGIS</h2>
+<p>Here is the distribution of shots in the NBA during the 2004-2005 season as well as the 2019-2020 season:</p>
+<p><img src="https://deconinckflo.github.io/images/blog/tirs2004.png#thumbnail" alt="shoots2004-2005">
+<img src="https://deconinckflo.github.io/images/blog/tirs2020.png#thumbnail" alt="shoots2019-2020"></p>
+<p>Once each image of each season has been exported from the QGIS software, we put them all together to make GIF.
+We can therefore progressively observe a real evolution of shooting positions in the NBA with an increase in the number of 3-point shootings.</p>
+<p>Here is the map showing the origin of American players playing in NBA and ABA previously:
+<img src="https://deconinckflo.github.io/images/blog/naissance-nba.png#thumbnail" alt="birth of American NBA players"></p>
+
+        </div>
         
-
-
+        
+        
+        
+        <div class="mt-5">
+          
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- /blog -->
 
 
   </div><!-- end Contact Area -->

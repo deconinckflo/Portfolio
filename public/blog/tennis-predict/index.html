@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr-fr">
+<html lang="en-us">
 <head>
 	<meta charset="utf-8">
-	<title>Tags</title>
+	<title>Tennis Prediction</title>
 
 	<!-- mobile responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="Responsive Multipurpose Parallax Hugo Template">
+	<meta name="description" content="Logic Regression Tennis Prediction">
 	
 	<meta name="author" content="Themefisher">
 	<meta name="generator" content="Hugo 0.76.4" />
@@ -49,7 +49,7 @@
 <section class="sticky-top navigation">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand p-0" href="/fr">
+			<a class="navbar-brand p-0" href="/">
 				
 				Portfolio
 				
@@ -70,7 +70,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#about">Informations Personnelles</a>
+              href="/#about">About me</a>
           </li>
           
           
@@ -80,7 +80,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#skills">Compétences</a>
+              href="/#skills">Skills</a>
           </li>
           
           
@@ -90,7 +90,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#experiences">Expériences</a>
+              href="/#experiences">Experiences</a>
           </li>
           
           
@@ -100,7 +100,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#projects">Projets</a>
+              href="/#projects">Projects</a>
           </li>
           
           
@@ -110,7 +110,7 @@
           
           <li class="nav-item">
             <a class="nav-link" 
-              href="/fr#contact">Contact</a>
+              href="/#contact">Contact</a>
           </li>
           
           
@@ -125,22 +125,22 @@
 					
 					
 					
-					<option id="fr" value="https://deconinckflo.github.io/fr/tags/" selected>Fr
+					<option id="fr" value="https://deconinckflo.github.io/fr/blog/tennis-predict/">Fr</option>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<option id="en" value="https://deconinckflo.github.io/blog/tennis-predict/" selected>En
 					</option>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					<option id="en" value="https://deconinckflo.github.io/tags/">En</option>
 					
 					
 					
@@ -153,30 +153,59 @@
 </section>
 
 
-<!-- Start Blog Section -->
-<section id="blog" class="section">
+<section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <!-- section title -->
-        <div class="title text-center wow fadeInDown">
-          <h2> Mes <span class="color">
-               projets </span></h2>
-          <div class="border-meghna"></div>
-        </div>
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1>Tennis Prediction</h1>
+        <ul class="list-inline mb-50">
+          <li class="list-inline-item"><a href="/author/deconinck-florian/">Deconinck Florian</a></li>
+          <li class="list-inline-item">Monday, Jun 15, 2020</li>
+        </ul>
+        <img class="img-fluid mb-50 lozad" data-src="https://deconinckflo.github.io/images/blog/tennis.jpg" alt="blog-image">
       </div>
-      <!-- /section title -->
-      
-      
-      <div class="col-12">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="post-single-content">
+          <p>Passionate about sports and having played tennis, what could be more interesting than studying Big Data this theme. We tried to answer: Can tennis outcomes be predicted thanks to data available on the internet?</p>
+<p>I did this project in the third year, like part of my studies, with a long-time friend: <a href="https://github.com/Thrynk">Thomas CARIN</a>. We had 3 weeks to do the analysis and create a dashboard on a website to see latest tweets regarding tennis, see different results of tennis matches and link our predictions to it.</p>
+<p>We reached an accuracy of 65% by using Elo rating of players in a Logistic Regression. That is a good score already, but we then tried to do a more deeper analysis.</p>
+<p>We tried to compute more features to see if we can beat this accuracy:</p>
+<p>We performed different steps to reach our goal:</p>
+<ul>
+<li>
+<p>Data collection: we got our data from a website that freely gives a pre-populated database with tennis results and a lot of information on players. This website is Ultimate tennis statistics.</p>
+</li>
+<li>
+<p>Data cleaning: we checked all features to see if some important data were missing. We saw that we had matches duplicates, so we decided to drop those duplicates and reverse half of the matches to get a balanced sample. We also dropped features that we weren&rsquo;t interested in like match_id, player_rank (we preferred elo_rating which is more accurate) and surface. We handled NA values by dropping records where missing values were essential for future steps. We also saw that missing values were mostly coming from atypical tournaments like Davis Cup or ATP Finals.</p>
+</li>
+<li>
+<p>Feature scaling: we then scaled our features for the Logistic Regression.</p>
+</li>
+<li>
+<p>Feature Engineering: We computed new statistics as first serve success percentage, winning on first serve percentage, aces, percentage of matches won, and also head to head statistics between players. We then performed feature difference to have one feature for each statistics representing the difference of levels between the 2 players on this statistics.</p>
+</li>
+<li>
+<p>Feature selection: We performed recursive feature elimination to keep only the most important features.</p>
+</li>
+<li>
+<p>Modeling: We got a 64% accuracy. this model didn&rsquo;t outperform our previous model, our features don&rsquo;t seem to bring more information than Elo rating.</p>
+</li>
+</ul>
+<p>In conclusion, with more time to research really important features, with more time to do exploratory analysis and statistics tests to evaluate our features, we could expect to improve our model. We were a little bit &ldquo;disappointed&rdquo; not by our work but by the results, but we will definitely come back on this study, with more knowledge (we are starting a major in Data Science) and with more time to create a good model, and study its return on investment.</p>
+<p><a href="https://github.com/Thrynk/Tennis-prediction">Link to the github repository</a></p>
+
+        </div>
         
-
-
+        
+        
+        
+        <div class="mt-5">
+          
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- /blog -->
 
 
   </div><!-- end Contact Area -->

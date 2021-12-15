@@ -8,10 +8,10 @@ description : "Personal project to create a dashboard retracing Lewis Hamilton's
 ---
 
 ## Introduction
-Winner Sunday September 26 of the Grand Prix of Russia in Sochi, Lewis Hamilton became the first driver to cross the bar of 100 Grand Prix wins, far ahead of the other big names in his sport.
+Winner Sunday, September 26 of the Grand Prix of Russia in Sochi, Lewis Hamilton became the first driver to cross the bar of 100 Grand Prix wins, far ahead of the other big names in his sport.
 
-## Objectif
+## Goal
 My goal on this project is to discover a new data visualization tool: Tableau Public. What better way to do this than to follow the news and analyze the 100 Grand Prix wins recently obtained by Lewis Hamilton.
 
-## Réalisation
+## Realization
 ![100 Lewis Hamilton wins](https://deconinckflo.github.io/images/blog/Hamilton.png#thumbnail)
