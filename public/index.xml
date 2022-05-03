@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Deconinck Florian 2021</copyright>
-    <lastBuildDate>Fri, 12 Nov 2021 18:11:36 +0600</lastBuildDate><atom:link href="https://deconinckflo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 20:25:36 +0600</lastBuildDate><atom:link href="https://deconinckflo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MVP race 2022</title>
+      <link>https://deconinckflo.github.io/blog/mvp-race-2022/</link>
+      <pubDate>Tue, 03 May 2022 20:25:36 +0600</pubDate>
+      
+      <guid>https://deconinckflo.github.io/blog/mvp-race-2022/</guid>
+      <description>Introduction Like every end of season in NBA, it is time to give the individual trophies.</description>
+    </item>
+    
     <item>
       <title>NBA Data Mapping</title>
       <link>https://deconinckflo.github.io/blog/qgis-basketball/</link>
