@@ -2,10 +2,15 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
+    - name: Data Research Intern
+      company: INSEP, Paris
+      duration: March 2022 - August 2022
+      content: Research project to study the impact of pollution on marathon performance. Data cleaning, data visualization, use of statistical models and neural networks.
+
     - name: Data Engineer / Developer
       company: SITEPROJET, Lille
       duration: May 2021 - July 2021
-      content: Data collection and database design. Realized a mobile application in React Native and a website in React Native.
+      content: Data collection and database design. Realized a mobile application in React Native and a website in React Native, SQL database design.
 
     - name: Ambassador ISEN
       company: ISEN, Lille

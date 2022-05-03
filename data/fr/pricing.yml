@@ -2,10 +2,15 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
-    - name: Data Engineer / Développeur
+    - name: Stagiaire recherche Data
+      company: INSEP, Paris
+      duration: Mars 2022 - Août 2022
+      content: Projet de recherche visant à étudier l'impact de la pollutionsur les performances aux marathons. Data cleaning, data visualisation, utilisation de modèles statistiques et réseaux de neurones.
+
+    - name: Stagiaire Data Engineer / Développeur
       company: SITEPROJET, Lille
       duration: Mai 2021 - Juillet 2021
-      content: Collecte de données et conception de bases de données. Réaliser une application mobile en React Native, et un site en React Native.
+      content: Collecte de données et conception de bases de données. Réaliser une application mobile en React Native, et un site en React Native, conception de base de données SQL.
 
     - name: Ambassadeur ISEN
       company: ISEN, Lille
